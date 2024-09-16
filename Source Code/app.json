@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Green Delta Admin Panel",
+    "description":"This is a demo Apps for showcasing proficiency in deploying apps, API calls, State Management and consistancy between Android and IOS build ",
+    "slug": "green-delta-admin-Panel",
+    "version": "1.0.0", 
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LoadingScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#23813E"
+    },
+    "updates":{
+      "fallbackToCacheTimeout":0
+    },
+    "assetBundlePatterns":[
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier":"soft_muffin_576d2b.netlify.app",
+      "buildNumber":"1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"soft_muffin_576d2b.netlify.app",
+      "versionCode":1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#23813E"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
